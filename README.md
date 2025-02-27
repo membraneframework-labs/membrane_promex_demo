@@ -5,10 +5,13 @@
 1. Pull https://github.com/wende/membrane_promex_demo
 2. `fly launch`
 3. open https://{YOUR_APP_NAME}.fly.dev/metrics
-4. Add to `fly.toml`:   ```
+4. Add to `fly.toml`:   
+```yaml
     [[metrics]]
     path = "/metrics"
     port = 8080  
+```
+
 5. `fly deploy`
 6. Import dashboard into Grafana at https://fly-metrics.net
    
