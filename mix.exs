@@ -60,7 +60,7 @@ defmodule MembranePromexDemo.MixProject do
       {:dns_cluster, "~> 0.1.1"},
       {:bandit, "~> 1.5"},
       {:prom_ex, "~> 1.11.0"},
-      {:membrane_promex, git: "git@github.com:membraneframework/membrane_promex.git"}
+      {:membrane_promex, git: "https://github.com/membraneframework/membrane_promex.git"}
     ]
   end
 
