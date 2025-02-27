@@ -3,7 +3,7 @@
 
 
 1. Clone this repo [https://github.com/wende/membrane_promex_demo](https://github.com/wende/membrane_promex_demo.git)
-2. Run `fly launch`. Register if you don't yet have an account
+2. Run `fly launch`. Register if you don't have an account yet
 3. Add to `fly.toml` in your project directory:   
 ```yaml
     [[metrics]]
