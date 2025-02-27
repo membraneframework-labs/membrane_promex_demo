@@ -14,6 +14,7 @@
 4. Run `fly deploy`
 5. Import dashboard into Grafana at https://fly-metrics.net 
 <img width="169" alt="Screenshot 2025-02-27 at 17 55 53" src="https://github.com/user-attachments/assets/4729a68a-1bef-478f-9a42-bcbf8d954c07" />
+
 6. Paste the json code below
 
 7. Profit
