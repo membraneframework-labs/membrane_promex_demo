@@ -12,7 +12,7 @@
 5. `fly deploy`
 6. Import dashboard into Grafana at https://fly-metrics.net
    
-```
+```json
 {
     "annotations": {
         "list": [
