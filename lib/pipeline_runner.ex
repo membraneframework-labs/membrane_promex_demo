@@ -1,8 +1,8 @@
-defmodule MembranePromexDemo.Pipeline do
+defmodule MembranePromexDemo.PipelineRunner do
   use GenServer
 
-  alias Membrane.Testing
-  import Membrane.ChildrenSpec
+  alias MembranePromexDemo.Membrane.Pipeline
+
   require Logger
 
   def start_link(state) do
@@ -15,12 +15,7 @@ defmodule MembranePromexDemo.Pipeline do
   def init(stack) do
     Logger.info("Starting Membrane pipeline")
 
-    child_spec =
-      child(:source, %Testing.Source{output: ["a", "b", "c"]})
-      |> child(:filter, TestFilter)
-      |> child(:sink, Testing.Sink)
-
-    {:ok, _supervisor, _pid} = Testing.Pipeline.start(spec: child_spec)
+    {:ok, _supervisor, _pid} = Membrane.Pipeline.start(Pipeline)
     {:ok, stack}
   end
 
