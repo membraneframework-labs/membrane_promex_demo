@@ -33,9 +33,7 @@ defmodule MembranePromexDemo.MixProject do
   defp deps do
     [
       {:plug_cowboy, "~> 2.0"},
-      {:membrane_core,
-       git: "https://github.com/membraneframework/membrane_core",
-       branch: "telemetry-with-past-time"},
+      {:membrane_core, "1.2.0", override: true},
       {:phoenix, "~> 1.7.19"},
       {:phoenix_html, "~> 4.1"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
