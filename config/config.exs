@@ -60,25 +60,11 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
-config :membrane_promex_demo, MembranePromexDemo.PromEx,
-  disabled: false,
-  manual_metrics_start_delay: :no_delay,
-  drop_metrics_groups: [],
-  grafana: :disabled,
-  metrics_server: :disabled
-
 #  [
 #   host: "0.0.0.0",
 #   enabled: true,
 #   port: 9091
 # ]
-
-config :membrane_core, :telemetry_flags,
-  tracked_callbacks: [
-    element: :all,
-    bin: :all,
-    pipeline: :all
-  ]
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

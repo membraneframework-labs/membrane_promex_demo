@@ -56,9 +56,7 @@ defmodule MembranePromexDemo.MixProject do
       {:gettext, "~> 0.26"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
-      {:bandit, "~> 1.5"},
-      {:prom_ex, "~> 1.11.0"},
-      {:membrane_promex, git: "https://github.com/membraneframework/membrane_promex.git"}
+      {:bandit, "~> 1.5"}
     ]
   end
 
