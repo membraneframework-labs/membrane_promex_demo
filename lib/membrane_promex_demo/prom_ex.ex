@@ -4,8 +4,7 @@ defmodule MembranePromexDemo.PromEx do
   @impl true
   def plugins do
     [
-      Membrane.PromEx,
-      MembranePromexDemo.ApplicationPlugin
+      Membrane.PromEx
     ]
   end
 end
