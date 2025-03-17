@@ -1,4 +1,4 @@
-# MembranePromexDemo
+# MembranePromExDemo
 
 1. Clone this repo [https://github.com/wende/membrane_promex_demo](https://github.com/wende/membrane_promex_demo.git) or follow [Setting Up Promex](https://hexdocs.pm/prom_ex/readme.html#setting-up-promex) yourself 
 2. Run `fly launch`. Register if you don't have an account yet
